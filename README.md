@@ -1,0 +1,2 @@
+# Process Monitor-Console
+ 	Process Monitor is a lightweight Windows application designed to help you maintain focus and minimize distractions during your work sessions. Its primary purpose is to monitor specified processes and provide a gentle reminder when you attempt to use non-work-related applications. If you find yourself tempted to play games or engage in activities that deviate from your work, App Monitor will automatically close those applications to help you stay on track.
