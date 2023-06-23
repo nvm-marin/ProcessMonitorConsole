@@ -1,5 +1,6 @@
 # Process Monitor
-![App Monitor Screenshot](img.jpeg)
+![Badge](https://img.shields.io/badge/Issues-0-green)
+![App Monitor Screenshot](<img src=".img.jpeg" alt="App Monitor Screenshot" width="300">)
 Process Monitor: Maintain focus, minimize distractions. Monitors specified processes, offers gentle reminders, and automatically closes non-work apps. Stay on track and boost productivity during work/study sessions.
 ## Key Features
 
