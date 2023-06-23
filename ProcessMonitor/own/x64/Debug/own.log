@@ -1,8 +1,6 @@
-﻿  mem.cpp
-  own.cpp
-C:\Users\colta\Downloads\asscube\own\own\own.cpp(23,63): warning C4244: 'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+﻿D:\Visual_Studio2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (own.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  mem.cpp
+  procmon.cpp
+C:\Users\colta\Documents\ProcessMonitor\Process-Monitor-Console\ProcessMonitor\own\procmon.cpp(33,63): warning C4244: 'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
   Generating Code...
-own.obj : error LNK2019: unresolved external symbol "unsigned __int64 __cdecl mem::GetProcId(char const *)" (?GetProcId@mem@@YA_KPEBD@Z) referenced in function main
-own.obj : error LNK2019: unresolved external symbol "bool __cdecl mem::isProcessRunning(char const *)" (?isProcessRunning@mem@@YA_NPEBD@Z) referenced in function main
-own.obj : error LNK2019: unresolved external symbol "void __cdecl mem::stopMonitoring(void)" (?stopMonitoring@mem@@YAXXZ) referenced in function main
-C:\Users\colta\Downloads\asscube\own\x64\Debug\own.exe : fatal error LNK1120: 3 unresolved externals
+  own.vcxproj -> C:\Users\colta\Documents\ProcessMonitor\Process-Monitor-Console\ProcessMonitor\x64\Debug\ProcessMonitor.exe
