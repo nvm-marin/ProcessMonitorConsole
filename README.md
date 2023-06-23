@@ -5,8 +5,7 @@
   <img alt="App Monitor Screenshot" src="img.jpeg">
 </picture>
 
-Process Monitor is a lightweight Windows application designed to help you maintain focus and minimize distractions during your work sessions. Its primary purpose is to monitor specified processes and provide a gentle reminder when you attempt to use non-work-related applications. If you find yourself tempted to play games or engage in activities that deviate from your work, Process Monitor will automatically close those applications to help you stay on track.
-
+Process Monitor: Maintain focus, minimize distractions. Monitors specified processes, offers gentle reminders, and automatically closes non-work apps. Stay on track and boost productivity during work/study sessions.
 ## Key Features
 
 - Monitors a customizable list of processes to avoid during work sessions.
@@ -27,6 +26,9 @@ Process Monitor is a lightweight Windows application designed to help you mainta
 3. If a monitored process is detected, Process Monitor will display a reminder message and give you the option to close the application or continue working.
 4. Choose the appropriate action based on your intentions and desired level of focus.
 5. If there is any problem with Win Security then add the program to exclusions.
+##Documentation
+https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate  - used to check which key was pressed 
+
 
 ## Contributing
 
