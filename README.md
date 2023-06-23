@@ -1,9 +1,14 @@
 # Process Monitor
 ![Badge](https://img.shields.io/badge/Issues-0-green)
-![alt text]
-<img src="https://github.com/marincolta/ProcessMonitorConsole/blob/main/img.jpeg?raw=true" width="100">
 
-Process Monitor: Maintain focus, minimize distractions. Monitors specified processes, offers gentle reminders, and automatically closes non-work apps. Stay on track and boost productivity during work/study sessions.
+
+#
+
+
+#
+
+
+<img src="https://github.com/marincolta/ProcessMonitorConsole/blob/main/img.jpeg?raw=true" width="100"> Process Monitor: Maintain focus, minimize distractions. Monitors specified processes, offers gentle reminders, and automatically closes non-work apps. Stay on track and boost productivity during work/study sessions.
 ## Key Features
 
 - Monitors a customizable list of processes to avoid during work sessions.
