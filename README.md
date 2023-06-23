@@ -1,10 +1,5 @@
 # Process Monitor
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/img-dark.jpeg">
-  <source media="(prefers-color-scheme: light)" srcset="images/img-light.jpeg">
-  <img alt="App Monitor Screenshot" src="img.jpeg">
-</picture>
-
+![App Monitor Screenshot](img.jpeg)
 Process Monitor: Maintain focus, minimize distractions. Monitors specified processes, offers gentle reminders, and automatically closes non-work apps. Stay on track and boost productivity during work/study sessions.
 ## Key Features
 
@@ -28,8 +23,18 @@ Process Monitor: Maintain focus, minimize distractions. Monitors specified proce
 5. If there is any problem with Win Security then add the program to exclusions.
 
 
-##Documentation
+## Documentation
+
 https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate  - used to check which key was pressed 
+
+**uintptr_t mem::GetProcId(const char* procName)** which takes as parameter the procname has the function to get the procid of a process:
+  1. We create a hSnap (handle) to snapshot all processes
+  2. We loop through all processes
+  3. We make a storage var to store the process name and convert it to WCHAR
+  4. Using the function "_wcsicmp we compare the proccess with the wProcName(given process)
+  5. return our procId.
+
+**bool mem::isProcessRunning(const char* procname)** is the same as the function from the above but the difference is this one is a bool function so the return value will be true/false.
 
 
 ## Contributing
