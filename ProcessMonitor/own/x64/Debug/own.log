@@ -1,0 +1,8 @@
+﻿  mem.cpp
+  own.cpp
+C:\Users\colta\Downloads\asscube\own\own\own.cpp(23,63): warning C4244: 'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+  Generating Code...
+own.obj : error LNK2019: unresolved external symbol "unsigned __int64 __cdecl mem::GetProcId(char const *)" (?GetProcId@mem@@YA_KPEBD@Z) referenced in function main
+own.obj : error LNK2019: unresolved external symbol "bool __cdecl mem::isProcessRunning(char const *)" (?isProcessRunning@mem@@YA_NPEBD@Z) referenced in function main
+own.obj : error LNK2019: unresolved external symbol "void __cdecl mem::stopMonitoring(void)" (?stopMonitoring@mem@@YAXXZ) referenced in function main
+C:\Users\colta\Downloads\asscube\own\x64\Debug\own.exe : fatal error LNK1120: 3 unresolved externals
